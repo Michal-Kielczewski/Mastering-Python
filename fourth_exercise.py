@@ -1,0 +1,6 @@
+print("WELCOME TO OUR USELESS STORE!")
+print("*"*30)
+item_name = input("what item are you purchasing today?")
+item_cost = float(input("how much does it cost? "))
+ordered_number = int(input("how many are you buying? "))
+print(f"Added {ordered_number} {item_name}(s) to shopping cart\nSubtotal: ${item_cost * ordered_number}")
